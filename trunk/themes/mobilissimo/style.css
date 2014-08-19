@@ -1,0 +1,20 @@
+/*  
+Theme Name: Mobilissimo
+Theme URI: http://themeforest.net/user/xRicrdx
+Description: An extensive mobile theme for an ordinary bloggers and web developers
+Version: 1.5
+Author: xRicrdx
+Author URI: http://themeforest.net/user/xRicrdx
+License URI: http://wordpress.org/about/gpl/
+License: The GPLv2 (or later) from the Free Software Foundation is the license that the WordPress software is under. Its text follows.
+*/
+
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.bypostauthor,
+.alignright,
+.alignleft,
+.aligncenter{
+	/* Referenced in style.php, Themeswitcher doesn't read style.php */
+}
