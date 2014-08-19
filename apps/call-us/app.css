@@ -1,0 +1,22 @@
+.wpmob-call-us {
+	font-size: 1.5em;
+}
+.wpmob-call-us * {
+	font-size: 1.0em;
+}
+.wpmob-call-us-phone {
+	max-width: 250px;
+	margin: 20% auto;
+	font-size: 1.2em;
+	text-align: center;
+	height: auto;
+}
+a.wpmob-call-now {
+	display: inline-block;
+	padding: 3%;
+	border: 1px solid rgba(46,129,176, 0.9);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 3% 0;
+}
