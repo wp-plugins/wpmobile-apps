@@ -3,7 +3,7 @@ Contributors: MarceloMuriel
 Tags: mobile, mobile plugin, mobile theme, android, iphone, ipad, smartphone
 Requires at least: 3.4
 Tested up to: 3.9.2
-Stable tag: 1.0.0.1
+Stable tag: 1.0.1
 PHP version at least: 5.3.28
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -76,6 +76,9 @@ just an example, in your case it would be your current theme.
 4. The Call Us App settings. 
 
 == Changelog ==
+= 1.0.1 =
+* [Fix] Login bug (COOKIES Error / Headers already sent). The plugin was loading content (CSS, HTML) too 
+early and WordPress was throwing errors during log in. 
 = 1.0 Beta =
 * Tested in WordPress 3.4 up to 3.9.2 with PHP 5.3.28, 5.4 and 5.5. 
 
