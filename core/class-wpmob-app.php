@@ -53,7 +53,7 @@ class WPMobApp extends WPMobExtension{
 	function register_frontend_scripts() {
 		# Do not load this scripts in the administration panel.
 		$appsDisabled = get_option('wpmob_disable_apps') == 'true';
-		if (!is_admin() && !$appsDisabled) {
+		if (!is_admin() && $_SERVER['REQUEST_URI'] != '/wp-login.php' && !$appsDisabled) {
 			$desktopEnabled = get_option('wpmob_enable_apps_desktop') == 'true';
 			if ($desktopEnabled || WPMobSwitcher::detect_users_device() != 'desktop' || (isset($_GET['theme']) && $_GET['theme'] != 'active')) {
 				wp_enqueue_script('carousel-js', WPMOB_URL . '/core/js/owl.carousel.min.js', array('jquery'), '', true);
@@ -72,7 +72,7 @@ class WPMobApp extends WPMobExtension{
 	function load_frontend_ui() {
 		# Do not load this content in the administration panel or in desktop mode if it is not enabled.
 		$appsDisabled = get_option('wpmob_disable_apps') == 'true';
-		if (!is_admin() && !$appsDisabled) {
+		if (!is_admin() && $_SERVER['REQUEST_URI'] != '/wp-login.php' && !$appsDisabled) {
 			$desktopEnabled = get_option('wpmob_enable_apps_desktop') == 'true';
 			if ($desktopEnabled || WPMobSwitcher::detect_users_device() != 'desktop' || (isset($_GET['theme']) && $_GET['theme'] != 'active')) {
 				require_once (WPMOB_DIR . '/core/css/app-panel-fonts.css.php');
