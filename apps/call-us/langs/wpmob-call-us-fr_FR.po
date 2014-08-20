@@ -1,0 +1,64 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WPMobile Apps 1.0\n"
+"Report-Msgid-Bugs-To: info@syscrunch.com\n"
+"POT-Creation-Date: 2014-08-11 14:29+0200\n"
+"PO-Revision-Date: 2014-08-11 14:47+0100\n"
+"Last-Translator: SysCrunch <info@syscrunch.com>\n"
+"Language-Team: SysCrunch <info@syscrunch.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+
+#: apps/call-us//app.php:17 apps/call-us//app.php:19 apps/call-us//app.php:32
+msgid "Call us"
+msgstr "Appelez-nous"
+
+#: apps/call-us//app.php:18
+msgid "Order"
+msgstr "Ordre dans le menu"
+
+#: apps/call-us//app.php:19
+msgid "Label"
+msgstr "Nom de l'application"
+
+#: apps/call-us//app.php:19
+msgid "Label to display."
+msgstr "Nom à afficher."
+
+#: apps/call-us//app.php:20
+msgid "Text Icon"
+msgstr "Icône"
+
+#: apps/call-us//app.php:20
+msgid ""
+"Icon to display, more <a href='http://fortawesome.github.io/Font-Awesome/"
+"icons/' target='_blank'>here</a>"
+msgstr ""
+"Icône à afficher, plus sur <a href='http://fortawesome.github.io/Font-"
+"Awesome/icons/' target='_blank'>here</a>"
+
+#: apps/call-us//app.php:21
+msgid "<strong>Phone number</strong>"
+msgstr "<strong>Numéro de téléphone</strong>"
+
+#: apps/call-us//app.php:21
+msgid "+1 415 599 2671"
+msgstr "+33 02 55 44 33"
+
+#: apps/call-us//app.php:21
+msgid "Please enter your phone number."
+msgstr "Veuillez entrer votre numéro de téléphone"
+
+#: apps/call-us//view.php:8
+msgid "Call Now"
+msgstr "Appelez maintenant"
+
+#: apps/call-us//view.php:10
+msgid "No phone set yet"
+msgstr "Pas encore de numéro de téléphone"
