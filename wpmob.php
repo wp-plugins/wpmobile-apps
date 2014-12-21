@@ -2,7 +2,7 @@
 /*
  Plugin Name: WPMobile Apps
  Plugin URI: http://www.wp-tmobile.com
- Version: 1.0.1
+ Version: 1.0.2
  Description: Create a mobile WordPress website experience on your website.
  Author: SysCrunch
  Author URI: http://www.syscrunch.com/
